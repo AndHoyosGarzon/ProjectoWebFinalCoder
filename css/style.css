@@ -1,0 +1,165 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.branding{
+  width: 25px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;  
+}
+
+article.mapa  p{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+    }
+
+
+article.mapa iframe{
+    width: 100%;
+    }
+
+footer#f-Index{
+    width: 100%;
+    height: auto;
+    background-color: #f1faee;
+/*     
+    padding-top: 3rem;
+    padding-left: 2rem;
+    padding-right: 2rem; */
+    padding: 3rem 2rem;
+    box-sizing: border-box;
+    display: grid;
+    justify-content: space-around;
+    grid-template-areas: 
+        'productos service info seguir'
+        'copyR copyR copyR copyR'
+    ; 
+}
+
+footer#f-Index div.area1{
+    grid-area: productos;
+}
+
+footer#f-Index div.area2{
+    grid-area: service;
+}
+
+footer#f-Index div.area3{
+    grid-area: info;
+}
+
+footer#f-Index div.area4{
+    grid-area: seguir;
+}
+
+footer#f-Index div.area5{
+    grid-area: copyR;
+    margin: auto;
+    padding-top: 2rem;
+}
+
+footer#f-Index div.f__container{
+    width: auto;
+    height: auto;
+}
+
+footer#f-Index div ul.f__list{
+    list-style: none;
+}
+
+footer#f-Index div p.f__title{
+    font-weight: bolder;
+    font-size: 1rem;
+    
+}
+
+footer#f-Index div ul.f__list li.f__list--item:hover{
+    color: silver;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+
+@media(min-width: 200px) and (max-width: 768px){
+
+    article.mapa  p{
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: bolder;
+        }
+    
+    
+    article.mapa iframe{
+        width: 100%;
+        }
+    
+
+    footer#f-Index{
+        width: 100%;
+        height: auto;
+        background-color: #000;
+        color: white;
+        font-size: small;
+        padding-top: 2rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        display: grid;
+        grid-template-areas: 
+            'productos'
+            'service'
+            'info'
+            'seguir'
+            'copyR'
+        ; 
+    }
+    
+    footer#f-Index div.area1{
+        grid-area: productos;
+    }
+    
+    footer#f-Index div.area2{
+        grid-area: service;
+    }
+    
+    footer#f-Index div.area3{
+        grid-area: info;
+    }
+    
+    footer#f-Index div.area4{
+        grid-area: seguir;
+    }
+
+    footer#f-Index div.area5{
+        grid-area: copyR;
+        margin: auto;
+        padding-top: 2rem;
+    }
+
+    footer#f-Index div.f_container{
+        text-align: center;
+    }
+
+    footer#f-Index div ul.f__list{
+        list-style: none;
+    }
+
+    footer#f-Index div ul.f__list li.f__list--item:hover{
+        color:lightgray;
+        text-decoration: underline;
+        cursor: pointer;
+    }
+
+}
+
+
+
+
+
+
+
+
